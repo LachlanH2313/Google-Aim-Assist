@@ -1,3 +1,4 @@
+// delcares custom cursors in conjuction with the CSS and HTML files
 const customCursor = document.querySelector('.custom-cursor');
 
 document.addEventListener('mousemove', (e) => {
