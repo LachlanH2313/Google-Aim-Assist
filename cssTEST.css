@@ -6,7 +6,7 @@
   font-weight: normal; /* Optional: define font weight */
   font-style: normal;  /* Optional: define font style (e.g., italic) */
   font-display: swap;  /* Optional: controls how font loads and displays */
-}
+}g
 
 /* disables cursor on html page */
 html { cursor: none; }
