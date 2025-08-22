@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Arial'; /* A name you choose for your font */
+  src: url("C:\Users\Nathan\Downloads\ArialMT.woff2") format('woff2'), /* Path to the font file */
+       url("C:\Users\Nathan\Downloads\ArialMT.woff") format('woff');
+  font-weight: normal; /* Optional: define font weight */
+  font-style: normal;  /* Optional: define font style (e.g., italic) */
+  font-display: swap;  /* Optional: controls how font loads and displays */
+}
+
+html { cursor: none; }
+
+.custom-cursor {
+    position: absolute; /* Allows precise positioning */
+        width: 20px; /* Example size */
+        height: 20px; /* Example size */
+        background-color: blue; /* Example appearance */
+        border-radius: 50%; /* Example: makes it a circle */
+        pointer-events: none; /* Ensures it doesn't interfere with clicks on elements underneath */
+        z-index: 9999; /* Ensures it's always on top */
+        transform: translate(-50%, -50%); /* Centers the element on the mouse coordinates */
+}
+
+heading {
+    font-family: "Arial";
+}
+
+p {
+    font-family: "Arial";
+}
