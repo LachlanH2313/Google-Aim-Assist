@@ -1,3 +1,4 @@
+/* adds arial typeface from downloads folder */
 @font-face {
   font-family: 'Arial'; /* A name you choose for your font */
   src: url("C:\Users\Nathan\Downloads\ArialMT.woff2") format('woff2'), /* Path to the font file */
@@ -7,8 +8,10 @@
   font-display: swap;  /* Optional: controls how font loads and displays */
 }
 
+/* disables cursor on html page */
 html { cursor: none; }
 
+/* all visual parmeters of the custom cursor */
 .custom-cursor {
     position: absolute; /* Allows precise positioning */
         width: 20px; /* Example size */
@@ -20,10 +23,12 @@ html { cursor: none; }
         transform: translate(-50%, -50%); /* Centers the element on the mouse coordinates */
 }
 
+/* heading font change */
 heading {
     font-family: "Arial";
 }
 
+/* paragraph font change */
 p {
     font-family: "Arial";
 }
